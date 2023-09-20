@@ -7,17 +7,23 @@
 img{
     max-width: 100%;
 }
+/* parte in comune */
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+/* parte superiore pagina  */
 .orange{
     background-color: hsl(24.33deg 100% 50.2%);
     margin-bottom: 3rem;
 }
-.orange-container{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+.orange{
     align-items: center;
 }
+/* sezione uomo donna bambini */
 ul{
     display: flex;
     list-style: none;
@@ -28,23 +34,20 @@ a{
     color: white;
     margin-right: 1em;
 }
+/* grandezza logo  */
 .logo{
     height: 2rem;
 }
 /* box griglia */
-.container{
-    width: 80%;
-    margin: auto;
-    display: flex;
+.wrap{
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 /* card  */
 .card{
     width: calc(95% / 3);
     margin-bottom: 3rem;
 }
-/* carta parte superiore */
+/* card parte superiore */
 .inside-top{
     position: relative;
 }
@@ -67,19 +70,21 @@ a{
     color: white;
     padding: 0.2rem 0.4rem;
 }
+/* sconto */
 .red{
     background-color: hsl(0deg 100% 50%);
     position: absolute;
     left: 0;
     bottom: 40px ;
 }
+/* sostenibilita */
 .green{
     background-color: hsl(120.47deg 100% 25.1%);
     position: absolute;
     left: 50px;
     bottom: 40px ;
 }
-/* parte inferiore */
+/*  card parte inferiore */
 span{
     font-size: 0.8rem;
 }
@@ -100,24 +105,18 @@ span{
 .card:hover .pic2{ 
     display: inline-block;   
 }
-
+/* parte inferiore pagina */
 footer{
     min-height: 30px;
     background-color: hsl(0deg 0% 10.2%);
 }
-.contiene{
-    width: 80%;
+.bot{
     color: azure;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
     padding-top: 2rem;
 }
 .informations{
     font-size: 0.8em;
 }
-/* seconda linea  */
-.second-line{
-    width: 80%;
-    margin: auto;
+.gap{
+    margin:0 0 0 1rem
 }
