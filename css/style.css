@@ -7,11 +7,34 @@
 img{
     max-width: 100%;
 }
+.orange{
+    background-color: hsl(24.33deg 100% 50.2%);
+    margin-bottom: 3rem;
+}
+.orange-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 1.5em 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+.logo{
+    height: 2rem;
+}
 /* box griglia */
 .container{
     width: 80%;
     margin: auto;
-    min-height: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -76,4 +99,17 @@ span{
 }
 .card:hover .pic2{ 
     display: inline-block;   
+}
+
+footer{
+    min-height: 30px;
+    background-color: hsl(0deg 0% 10.2%);
+}
+.contiene{
+    width: 80%;
+    color: azure;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
 }
