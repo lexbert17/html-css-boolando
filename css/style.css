@@ -12,12 +12,13 @@ img{
     min-height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
     justify-content: space-between;
 }
 .card{
     width: calc(95% / 3);
-    background-color: blue;
+    margin-bottom: 3rem;
+}
+.inside-top{
     position: relative;
 }
 .white-square{
@@ -28,6 +29,9 @@ img{
     position: absolute;
     top: 10px;
     right: 0;
+}
+.white-square:hover{
+    color: red;
 }
 .box{
     display: inline-block;
@@ -45,4 +49,23 @@ img{
     position: absolute;
     left: 50px;
     bottom: 40px ;
+}
+span{
+    font-size: 0.8rem;
+}
+.price{
+    color: red;
+    font-weight: 600;
+}
+.strikethrough{
+    text-decoration: line-through;
+}
+.pic2{
+    display: none;
+}
+.card:hover .pic{
+    display: none;    
+}
+.card:hover .pic2{ 
+    display: inline-block;   
 }
